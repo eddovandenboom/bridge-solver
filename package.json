@@ -1,0 +1,21 @@
+{
+  "name": "bridge-solver",
+  "version": "1.0.8.2",
+  "description": "Slightly modified version of John Goacher's BSOL",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve public -p 3002",
+    "build": "echo 'Static files - no build needed'",
+    "serve": "serve public -p 3002"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  },
+  "keywords": [
+    "bridge",
+    "cards",
+    "visualization",
+    "bsol"
+  ],
+  "author": "John Goacher"
+}
