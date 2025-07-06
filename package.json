@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "serve public -p 3002",
     "build": "echo 'Static files - no build needed'",
-    "serve": "serve public -p 3002"
+    "serve": "serve public -p 3002",
+    "serve:bg": "nohup serve public -p 3002 > server.log 2>&1 &"
   },
   "devDependencies": {
     "serve": "^14.2.4"
